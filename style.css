@@ -341,3 +341,58 @@ nav {
 .contact .contact-content i {
   margin-right: 10px;
 }
+footer {
+  background-color: #121212;
+  color: #504d48;
+  padding: 2rem;
+}
+footer .grid-col .col-item a {
+  color: #504d48;
+}
+footer .col-item .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .col-item .links h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid #504d48;
+  padding-bottom: 10px;
+}
+footer .grid-col .col-item .links li {
+  padding-top: 10px;
+}
+footer .grid-col .col-item a:hover {
+  color: var(--white);
+}
+footer .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+footer .col-item .us ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+footer .col-item .us li {
+  padding: 10px 0;
+  border-bottom: 1px solid #504d48;
+  text-align: center;
+}
+footer .col-item .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer .col-item .social i {
+  font-size: 1.5rem;
+}
+footer .col-item .social i:hover {
+  scale: 1.2;
+}
+/* contact section end */
